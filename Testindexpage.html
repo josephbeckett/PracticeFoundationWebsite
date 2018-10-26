@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tester Site</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+      <div class="title-bar-title">Menu</div>
+    </div>
+
+    <div class="top-bar align-center" id="responsive-menu">
+      <div class="top-bar">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="#Item-1">Home</a>
+          </li>
+          <li>
+            <a href="#Item-2">Resources</a>
+            <ul class="menu">
+              <li>
+                <a href="#Item-2A">Stellar</a>
+                <ul class="menu">
+                  <li><a href="#Item-2Ai">Sun</a></li>
+                  <li><a href="#Item-2Aii">Planets</a></li>
+                  <li><a href="#Item-2Aiii">Comets</a></li>
+                  <li><a href="#Item-2Aiiiv">Asteroids</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#Item-2B">Interstellar</a>
+                <ul class="menu">
+                  <li><a href="#Item-2Bi">Expoplanets</a></li>
+                  <li><a href="#Item-2Bii">Exostars</a></li>
+                  <li><a href="#Item-2Biii">Supernovae</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#Item-2C">Intergalactic</a>
+                <ul class="menu">
+                  <li><a href="#Item-2Ci">Galaxies</a></li>
+                  <li><a href="#Item-2Cii">Supermassive Blackholes</a></li>
+                  <li><a href="#Item-2Ciii">Hypernovae</a></li>
+                  <li><a href="#Item-2Civ">Quasars</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#Item-3">Quiz</a></li>
+          <li><a href="#Item-4">Sign Out</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Video Background -->
+    <div class="promo">
+      <video autoplay loop muted id="video_bg">
+      <source src="images/CosmicShores.mp4" type="video/mp4">
+      </video>
+      <div class="row align-center align-middle">
+        <div class="small-8 column text-center" id="message">
+          <h1>[Insert Title Here]</h1>
+          <h2>[Insert Subtitle Here]</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

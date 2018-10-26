@@ -1,0 +1,33 @@
+.promo {
+  position: relative;
+  overflow: hidden;
+}
+
+#video_bg {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: -100;
+}
+
+.top-bar, top-bar ul {
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 1;
+}
+
+.row {
+  min-height: 100vh;
+}
+
+#message {
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 1;
+}
